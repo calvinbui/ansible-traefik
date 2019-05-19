@@ -4,15 +4,10 @@ traefik_name: traefik
 traefik_image: traefik:1.7.11-alpine
 traefik_config_template: traefik.toml.j2
 traefik_config_directory: /var/opt/traefik
-
 traefik_ports:
   - 8080:8080  # management
   - 80:80  # http
   - 443:443  # https
-
-traefik_volumes:
-  - /var/run/docker.sock:/var/run/docker.sock
-  - "{{ traefik_config_directory }}/traefik.toml:/traefik.toml"
 
 traefik_docker_additional_options:
   restart_policy: always
