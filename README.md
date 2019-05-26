@@ -14,7 +14,7 @@ N/A
 
 `traefik_config_template`: The traefik.toml.j2 template packaged with this role is meant to be very generic. Allowing to set every possible traefik.toml options in there from the role would be overly complicated for maintenance. If the default template does not suit your needs, you can replace it with yours. What you need to do:
 * create a `templates` directory at the same level as your playbook
-* create a `templates\traefik.toml.j2` file (just choose a different name from the default template)
+* create a `templates\mytraefik.toml.j2` file (just choose a different name from the default template)
 * in your playbook set the var `traefik_config_template: traefik.toml.j2`
 
 `traefik_config_directory`: Directory to store configuration files
