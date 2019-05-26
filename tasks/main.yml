@@ -9,6 +9,7 @@
   file:
     path: "{{ traefik_config_acme_file }}"
     state: touch
+    mode: '0600'
     modification_time: "preserve"
     access_time: "preserve"
 
