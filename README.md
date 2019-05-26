@@ -19,6 +19,8 @@ N/A
 
 `traefik_config_directory`: Directory to store configuration files
 
+`traefik_config_acme_file`: Location of certificates storage
+
 `traefik_ports`: List of ports to expose
 
 `traefik_docker_additional_options`: [Additional parameters](https://docs.ansible.com/ansible/latest/modules/docker_container_module.html) to add to docker container
