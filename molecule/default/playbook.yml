@@ -5,4 +5,4 @@
   hosts: all
   become: true
   roles:
-    - role: ansible-traefik-docker
+    - role: ansible-traefik
