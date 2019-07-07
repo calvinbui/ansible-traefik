@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.com/calvinbui/ansible-traefik.svg?branch=master)](https://travis-ci.com/calvinbui/ansible-traefik)
+![GitHub release](https://img.shields.io/github/release/calvinbui/ansible-traefik.svg)
+![Ansible Quality Score](https://img.shields.io/ansible/quality/40533.svg)
+![Ansible Role](https://img.shields.io/ansible/role/d/40533.svg)
+
 # Ansible Traefik
 
 Traefik in Docker
